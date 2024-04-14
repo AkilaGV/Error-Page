@@ -3,9 +3,7 @@ import ReactDOM from "react-dom/client"
 import "./index.css"
 
 const root=ReactDOM.createRoot(document.getElementById("root"))
-function change(){
-  
-}
+
 function Error(){
   return( <div className="flex flex-row justify-center items-center h-[100vh]">
             <div className="container">
@@ -15,8 +13,8 @@ function Error(){
       <p className="text-sm ">| Sorry The Page are not found | 
       
 </p>
-      <button className="bg-black text-white rounded-lg mt-3  p-3 text-sm " onClick={{}}>GO Home <i class="fa-solid fa-house ml-1"></i></button>
-      <button className="bg-black text-white rounded-lg mt-3  p-3 text-sm ml-3" onClick={{}}>Explore  <i class="fa-solid fa-arrow-right ml-1"></i></button>     
+      <button className="bg-black text-white rounded-lg mt-3  p-3 text-sm " >GO Home <i class="fa-solid fa-house ml-1"></i></button>
+      <button className="bg-black text-white rounded-lg mt-3  p-3 text-sm ml-3" >Explore  <i class="fa-solid fa-arrow-right ml-1"></i></button>     
             </center>
             
 
