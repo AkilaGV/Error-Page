@@ -3,68 +3,36 @@
 @tailwind utilities;
 
 body{
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
-    background-size: cover;
+    
+   
     margin: 0;
-    padding-top: 10vh;
-    height: 100%;
-    width: 100%;
-    
-    
-    
+    padding: 0;
+    background-color: lightblue;
+    color: white;  
 
+}
+
+button{
+    cursor: pointer;
+  
+}
+button:hover{
+    background-color: white;
+    color: black;
 }
 .container{
     background-image: url("https://new-assets.ccbp.in/frontend/static-website/moon-stars-bg.png");
-    height: 200px;
-    width: 300px;
-    display: flex;
-    background-size: cover;
-    flex-direction: column;
-    align-items: center;
-    width: 60vw;
-    height: 40vh;
-    margin: 15%;
-    
-    
+    display: column;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 15px;
     
 
 }
-h1{
-    font-size: 50px;
-    font-family: Roboto;
-    font-weight: 200;
-    padding: 10px;
-    margin-top: 10px;
-    
-}
-p{
-    padding: 10px;
-    font-size: 20px;
-    margin: 20px;
-}
-image{
-    height: 20px;
-    width: 20px;
-}
-button{
-    background-color: black;
-    border-radius: 5px;
-    border: none;
-    border-width: 0px;
-    height: 50px;
-    width: 150px;
-    
-}
+
 @media screen and (max-width:600px){
-    body{
-        background-image: url("https://new-assets.ccbp.in/frontend/static-website/moon-stars-bg.png");
-        background-size: cover;
-        height: 100vh;
-        width: 100vh;
-
-    }
-    .container{
+    .container,body{
         background-image: none;
+        color: black;
     }
-}    
+}

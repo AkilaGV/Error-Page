@@ -3,20 +3,30 @@ import ReactDOM from "react-dom/client"
 import "./index.css"
 
 const root=ReactDOM.createRoot(document.getElementById("root"))
-
+function change(){
+  
+}
 function Error(){
-  return(<div >
-    <div className='text-white container'>
-      <h1 className="font-medium text-2xl "> 404 Error Page</h1>
+  return( <div className="flex flex-row justify-center items-center h-[100vh]">
+            <div className="container">
+            <center>
+            <h2 className="font-medium text-2xl p-2 "> 4☹️4 Error Page</h2>
       
-      <p>| Sorry The Page are not found |
-      <i class="fa-light fa-star"></i></p>
-      <button className="text-white ">GO Home </button>
+      <p className="text-sm ">| Sorry The Page are not found | 
+      
+</p>
+      <button className="bg-black text-white rounded-lg mt-3  p-3 text-sm " onClick={{}}>GO Home <i class="fa-solid fa-house ml-1"></i></button>
+      <button className="bg-black text-white rounded-lg mt-3  p-3 text-sm ml-3" onClick={{}}>Explore  <i class="fa-solid fa-arrow-right ml-1"></i></button>     
+            </center>
+            
 
       
       
-    </div>
-    </div>
+             </div>
+          </div>
+   
+           
+    
     
   )
 }
